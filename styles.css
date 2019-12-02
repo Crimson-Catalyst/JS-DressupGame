@@ -1,0 +1,116 @@
+body{
+    background: #bada55;  
+    font-family: century gothic, calibri;
+    font-size: 14px;
+}
+
+#box{
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    max-width: 900px;
+    background: #ffffff;
+}
+
+#paintboard{
+    margin: 0px 45px 0px 45px;
+    border: dashed 5px #336699;
+    width: 800px;
+    height: 600px;
+}
+
+#buttons{
+    margin: 0px 45px 0px 45px;
+    padding: 25px 25px 40px 25px;
+    /*border: dashed 5px #336699;*/
+    border-bottom: dashed 5px #336699;
+    text-align: center;
+}
+
+button{
+    padding: 3px 10px 3px 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: century gothic, calibri;
+    
+    background-color: #bada55;
+    border-color: #336699;
+}
+
+.spacer{
+    margin: 0px 90px 0px 90px;
+}
+
+
+/* ========== messing with radio buttons */
+
+
+input[type=radio]:not(old){
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+input[type=radio]:not(old) + label{
+    display: inline-block;
+    margin-left: -20px;
+    line-height: 20px;
+}
+
+input[type=radio]:not(old) + label > span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 110%;
+}
+
+
+input[type=radio]:not(old) + label > span.light {
+    background: #f6d5b4;   
+}
+
+input[type=radio]:not(old) + label > span.mid {
+    background: #d8a46f;   
+}
+
+input[type=radio]:not(old) + label > span.med {
+    background: #8a5639;   
+}
+
+input[type=radio]:not(old) + label > span.dark {
+    background: #5a3629;   
+}
+
+
+input[type=radio]:not(old):checked + label > span > span{
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 5px 3px 5px 3px;
+  border: solid 2px #e18049;
+  border-radius: 100%;
+}
+
+
+/*---------------*/
+
+
+#loader{
+    display: none;
+}
+
+header {
+    padding: 0px;
+    margin: -50px 45px -10px 45px;
+    /*border: dashed 5px #336699;*/
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #336699;
+}
+
+footer {
+    margin: 30px 45px 10px 45px;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+Accessories	4  iiii
+Hair		12 iiiii iiiii ii
+Face		7  iiiii ii
+Tops		6  iiiii i
+Bottoms		6  iiiii i
+Shoes		4  iiii
